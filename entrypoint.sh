@@ -76,4 +76,4 @@ if [ -n "$WARP_ENABLE_NAT" ]; then
 fi
 
 # start the proxy
-gost $GOST_ARGS
+sslocal -c /etc/shadowsocks-rust/ss-local.conf
